@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ข้อมูลแผ่นดินไหวทั้งหมด</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>🌍 ข้อมูลแผ่นดินไหวทั้งหมด</h1>
+
+        <!-- ปุ่มกลับไปหน้าแรก -->
+        <button onclick="location.href='index.html'">กลับไปหน้าหลัก</button>
+
+        <h2>ตารางแผ่นดินไหว</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>พิกัด</th>
+                    <th>ขนาด (ริกเตอร์)</th>
+                    <th>เวลา</th>
+                </tr>
+            </thead>
+            <tbody id="earthquake-table-body">
+                <!-- ข้อมูลแผ่นดินไหวจะถูกแทรกที่นี่ -->
+            </tbody>
+        </table>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

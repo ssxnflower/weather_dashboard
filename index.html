@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather & Earthquake Info</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>🌎 สภาพอากาศ & แผ่นดินไหว</h1>
+        <div class="card">
+            <h2 id="datetime">⏳ กำลังโหลด...</h2>
+        </div>
+        <div class="card">
+            <h3>🌡️ อุณหภูมิ: <span id="temperature">--</span> °C</h3>
+            <h3>🌬️ ความดันอากาศ: <span id="pressure">--</span> hPa</h3>
+            <!-- เพิ่มปุ่มที่สามารถคลิกเพื่อไปยังหน้าอุณหภูมิและความดัน -->
+            <button onclick="location.href='weather.html'">ดูข้อมูลอุณหภูมิและความดันทั้งหมด</button>
+        </div>
+        <div class="card">
+            <h3>🌍 ข้อมูลแผ่นดินไหว</h3>
+            <!--p>📍 พิกัด: <span id="earthquake-location">--</span></p>
+            <p>📏 ขนาด: <span id="earthquake-magnitude">--</span> ริกเตอร์</p-->
+            <!-- เพิ่มปุ่มที่สามารถคลิกเพื่อไปยังหน้าแผ่นดินไหว -->
+            <button onclick="location.href='earthquake.html'">ดูข้อมูลแผ่นดินไหวทั้งหมด</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
