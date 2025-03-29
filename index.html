@@ -3,15 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Earthquake</title>
+    <title>Earthquake Alert</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div class="container">
+        <h1>🌍 แจ้งเตือนแผ่นดินไหว</h1>
+        <p id="datetime">📅 --</p>
         <div class="card">
-            <h3>🌍 ข้อมูลแผ่นดินไหว</h3>
-            <!--p>📍 พิกัด: <span id="earthquake-location">--</span></p>
-            <p>📏 ขนาด: <span id="earthquake-magnitude">--</span> ริกเตอร์</p-->
-            <!-- เพิ่มปุ่มที่สามารถคลิกเพื่อไปยังหน้าแผ่นดินไหว -->
+            <h3>ข้อมูลแผ่นดินไหวล่าสุด</h3>
+            <p>📍 พิกัด: <span id="earthquake-location">--</span></p>
+            <p>📏 ขนาด: <span id="earthquake-magnitude">--</span> ริกเตอร์</p>
             <button onclick="location.href='earthquake.html'">ดูข้อมูลแผ่นดินไหวทั้งหมด</button>
         </div>
     </div>
